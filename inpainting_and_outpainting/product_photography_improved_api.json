@@ -818,7 +818,7 @@
     "69": {
         "inputs": {
             "image": "example.png",
-            "label": "Input Image"
+            "label": "Background Image"
         },
         "class_type": "FSLoadImage",
         "_meta": {
