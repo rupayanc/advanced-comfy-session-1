@@ -598,7 +598,7 @@
                 218
             ],
             "flags": {},
-            "order": 9,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -706,7 +706,7 @@
                 58
             ],
             "flags": {},
-            "order": 5,
+            "order": 3,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -972,7 +972,7 @@
                 98
             ],
             "flags": {},
-            "order": 6,
+            "order": 4,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -1027,7 +1027,7 @@
                 58
             ],
             "flags": {},
-            "order": 11,
+            "order": 9,
             "mode": 0,
             "inputs": [
                 {
@@ -1181,7 +1181,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 12,
+            "order": 10,
             "mode": 0,
             "inputs": [
                 {
@@ -1537,7 +1537,7 @@
                 196.48919677734375
             ],
             "flags": {},
-            "order": 10,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -2180,7 +2180,7 @@
                 318
             ],
             "flags": {},
-            "order": 3,
+            "order": 5,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2216,7 +2216,7 @@
                 200
             ],
             "flags": {},
-            "order": 4,
+            "order": 6,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2278,7 +2278,8 @@
                 "cnr_id": "comfy-core",
                 "ver": "0.3.30",
                 "Node name for S&R": "VAEEncode"
-            }
+            },
+            "widgets_values": []
         },
         {
             "id": 69,
@@ -2312,7 +2313,7 @@
             "widgets_values": [
                 "example.png",
                 "image",
-                "Input Image"
+                "Background Image"
             ]
         }
     ],
@@ -3093,10 +3094,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.26333125430607984,
+            "scale": 0.6830134553650705,
             "offset": [
-                147.80076272705668,
-                -850.8834733730845
+                75.74181095065576,
+                -504.6667768689956
             ]
         },
         "frontendVersion": "1.18.0"
