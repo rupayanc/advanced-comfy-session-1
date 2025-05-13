@@ -133,7 +133,7 @@
     },
     "20": {
         "inputs": {
-            "seed": 654689829781574,
+            "seed": 452243387042028,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -242,7 +242,7 @@
     },
     "27": {
         "inputs": {
-            "control_net_name": "control_v11p_sd15_lineart_fp16.safetensors"
+            "control_net_name": "control_sd15_depth.pth"
         },
         "class_type": "ControlNetLoader",
         "_meta": {
@@ -328,6 +328,10 @@
             "foreground": [
                 "44",
                 0
+            ],
+            "opt_background": [
+                "67",
+                0
             ]
         },
         "class_type": "ICLightConditioning",
@@ -346,7 +350,7 @@
     },
     "34": {
         "inputs": {
-            "model_path": "IC-Light/iclight_sd15_fc.safetensors",
+            "model_path": "ic-light/iclight_sd15_fbc.safetensors",
             "model": [
                 "33",
                 0
@@ -359,7 +363,7 @@
     },
     "35": {
         "inputs": {
-            "seed": 786506531041769,
+            "seed": 410256401775485,
             "steps": 40,
             "cfg": 2,
             "sampler_name": "dpmpp_2m_sde",
@@ -778,7 +782,6 @@
     "65": {
         "inputs": {
             "image": "example.png",
-            "upload": "image",
             "label": "Input Product Image"
         },
         "class_type": "FSLoadImage",
@@ -794,6 +797,32 @@
         "class_type": "FSLoadText",
         "_meta": {
             "title": "[FS]⚡Load Text (Input)"
+        }
+    },
+    "67": {
+        "inputs": {
+            "pixels": [
+                "69",
+                0
+            ],
+            "vae": [
+                "33",
+                2
+            ]
+        },
+        "class_type": "VAEEncode",
+        "_meta": {
+            "title": "VAE Encode"
+        }
+    },
+    "69": {
+        "inputs": {
+            "image": "example.png",
+            "label": "Input Image"
+        },
+        "class_type": "FSLoadImage",
+        "_meta": {
+            "title": "[FS]⚡Load Image (Input)"
         }
     }
 }
