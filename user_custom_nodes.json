@@ -198,9 +198,12 @@
       "description": "Image and matte filtering nodes for ComfyUI `image/filters/*`"
     },
     "nodes": [],
-    "pip": [],
+    "pip": [
+      "numba"
+    ],
     "apt": [],
-    "cached": "False"
+    "cached": "False",
+    "sha": ""
   },
   {
     "name": "ComfyUI Layer Style",
