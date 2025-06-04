@@ -21,14 +21,15 @@ workflows:
     inputs: []
     outputs: []
     skip_preprocess: true
-  - id: pv83l25txlq
+  - id: bachzewemb
     name: product_photography_api.json
     file: inpainting_and_outpainting/product_photography_api.json
-    version: 8
+    version: 9
     description: ''
     inputs: []
     outputs: []
     skip_preprocess: true
+    advancedConfig: false
   - id: 53gpta37fnw
     name: image_resizing_api.json
     file: basics/image_resizing_api.json
@@ -228,7 +229,7 @@ normal_workflows:
   - id: bachzewemb
     name: product_photography.json
     file: inpainting_and_outpainting/product_photography.json
-    version: 8
+    version: 9
   - id: q3oer3g3ulq
     name: image_resizing.json
     file: basics/image_resizing.json
