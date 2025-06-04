@@ -1,7 +1,7 @@
 {
     "10": {
         "inputs": {
-            "text": "text, watermark, nsfw",
+            "text": "text, watermark",
             "clip": [
                 "15",
                 1
@@ -101,7 +101,8 @@
     },
     "16": {
         "inputs": {
-            "image": "image (5).webp"
+            "image": "image (5).webp",
+            "upload": "image"
         },
         "class_type": "LoadImage",
         "_meta": {
