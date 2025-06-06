@@ -218,11 +218,11 @@ workflows:
     description: ''
     file: relighting/basic_relighting.json
 normal_workflows:
-  - id: dt1vvo7wj2u
+  - id: wvaud9ebrba
     name: basic_inpainting.json
     file: inpainting_and_outpainting/basic_inpainting.json
     version: .nan
-  - id: ou0raz0jdo
+  - id: p9by8w497t
     name: basic_outpainting.json
     file: inpainting_and_outpainting/basic_outpainting.json
     version: 1
@@ -230,43 +230,43 @@ normal_workflows:
     name: product_photography.json
     file: inpainting_and_outpainting/product_photography.json
     version: 16
-  - id: q3oer3g3ulq
+  - id: 53gpta37fnw
     name: image_resizing.json
     file: basics/image_resizing.json
     version: 0
-  - id: 6765idkbpdn
+  - id: xtthnc37xx
     name: controlnet_preprocessors.json
     file: basics/controlnet_preprocessors.json
     version: 0
-  - id: q21h5nk21po
+  - id: 9sz31776699
     name: controlnet_connection.json
     file: basics/controlnet_connection.json
     version: 1
-  - id: flu0dkbhzzn
+  - id: 61rifburtgy
     name: segment_anything.json
     file: basics/segment_anything.json
     version: 0
-  - id: qgdifbpgqnq
+  - id: yb9cayzg3pd
     name: product_photography_improved.json
     file: inpainting_and_outpainting/product_photography_improved.json
     version: 0
-  - id: tz7od90a4r
+  - id: dy4f9bkx9c
     name: image_composite_masking.json
     file: basics/image_composite_masking.json
     version: 0
-  - id: 6in8kl11ite
+  - id: 56exyf4nvjg
     name: basic_relighting.json
     file: relighting/basic_relighting.json
     version: 0
-  - id: eeoibme22rl
+  - id: krht6t1ylzh
     name: product_photography_2.json
     file: inpainting_and_outpainting/product_photography_2.json
     version: 4
-  - id: 7yib30hpqgo
+  - id: akj01afuxdt
     name: fashion_photography_workflow.json
     file: inpainting_and_outpainting/fashion_photography_workflow.json
     version: 1
-  - id: hnizixmhn7
+  - id: npyn847qgn
     name: product_photography_app.json
     file: inpainting_and_outpainting/product_photography_app.json
     version: 1
